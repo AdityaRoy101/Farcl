@@ -59,7 +59,7 @@ export async function copyToClipboard(text: string) {
 // ------------ GraphQL helpers & mutations ------------
 
 export const STUDIO_GRAPHQL_URL =
-  import.meta.env.VITE_FARCL_STUDIO_URL || "http://localhost:8001/v1/farcl";
+  import.meta.env.VITE_FARCL_STUDIO_URL || "http://localhost:8001/graphql";
 
 export function getGqlErrors(json: any): Array<{ message?: string }> {
   return json?.errors ?? json?.body?.singleResult?.errors ?? [];
