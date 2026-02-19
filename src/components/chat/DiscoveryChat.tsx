@@ -5,7 +5,7 @@ import { Header } from "../../components/Header/Header";
 import { HeaderSkeleton } from "../../components/Skeleton/Skeleton";
 import { useOrg } from "../../contexts/workspace";
 import { useAuthStore, selectUser } from "../../stores/auth";
-import { useUserDisplayStore } from "../../stores/auth/UserDisplay";
+import { useUserDisplayStore } from "../../stores/auth/userDisplay";
 
 type Phase = "discovery" | "build";
 type Role = "user" | "assistant";

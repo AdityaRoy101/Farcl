@@ -16,7 +16,7 @@ import { Header } from "../../components/Header/Header";
 import { HeaderSkeleton } from "../../components/Skeleton/Skeleton";
 import { useOrg, useWorkspace, useProject } from "../../contexts/workspace";
 import { useAuthStore, selectUser } from "../../stores/auth";
-import { useUserDisplayStore } from "../../stores/auth/UserDisplay";
+import { useUserDisplayStore } from "../../stores/auth/userDisplay";
 import { AppAvatar } from "../../components/ui/AppAvatar";
 import PhaseVisualizationV2, {
   type Feature,
